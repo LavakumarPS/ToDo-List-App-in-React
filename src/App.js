@@ -33,7 +33,7 @@ return(
      <ul>
         {todos.map((todo) => (
           <li key={todo}>{todo}
-          <button onClick={handleDelete} className="">Delete</button>
+          <button onClick={()=>handleDelete(index)} className="">Delete</button>
           </li>
         ))}
       </ul> 
